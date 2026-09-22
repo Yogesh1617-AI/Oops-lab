@@ -88,7 +88,7 @@ public class StudentManagementApp extends Application {
               // Establish a connection to the database 
               connection = 
 DriverManager.getConnection("jdbc:mysql://localhost:3306/studentdb",  
-"root", "1234"); 
+"root", "IFETIFET"); 
               System.out.println("Database connection successful"); 
            }  
      catch (ClassNotFoundException e) { 
